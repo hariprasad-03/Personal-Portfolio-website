@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/314cd4eb61.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    #header {
+        width: 100vw;
+        height: 100vh;
+        background: url(img/ok.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    body {
+        background-image: url(img/bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+</style>
+
+<body>
+    <!--------------- HOME SECTION ------------------>
+    <div id="header">
+        <div class="container">
+            <nav class="head1">
+                <img src="img/har.jpg" alt="" class="logo">
+                <div class="navlinks" id="navlinks">
+                    <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#mywork">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+                </nav>
+            <div class="header-text">
+                <p>Learner</p>
+                <h1>Hi,I'm <span>Hari</span><br>and i'm from Hyderabad</h1>
+            </div>
+        </div>
+    </div>
+    <!------------- ABOUT SECTION --------------------->
+    <div id="about" style="background: #cbeaf6; position:relative">
+        <div class="container">
+            <div class="row">
+                <div class="abt-column-1">
+                    <img src="img/hariiiiiii.png" alt="">
+                </div>
+                <div class="abt-column-2">
+                    <h1 class="subtitle">
+                        About me
+                    </h1>
+                    <p style="font-size:20px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eveniet, quas quod alias
+                        quam dignissimos ad recusandae quasi asperiores voluptas aspernatur nulla expedita
+                        necessitatibus unde nemo, sequi soluta beatae molestiae.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Basiclanguages</span><br>C,C++,Java,Python</li>
+                            <li><span>Web Development</span><br>For Making webistes</li>
+                            <li><span>DataBases</span><br>MySQL etc..</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Hackathons</span><br>ISI,EEP</li>
+                            <li><span>Internship</span><br>AICTE networking virtual internships</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2025</span><br>Engineering</li>
+                            <li><span>2021</span><br>InterBoard</li>
+                            <li><span>2019</span><br>SSC</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="custom-shape-divider-bottom-1702309945">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        
+    </div>
+    <!-- -------------SERVICES-------------- -->
+    <div id="services" style="background:#f1d0da;position:relative">
+        <div class="container">
+            <h1 class="subtitle">
+                Services
+            </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore officia tenetur hic est, quaerat
+                        ipsam eum consectetur totam dignissimos obcaecati!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore officia tenetur hic est, quaerat
+                        ipsam eum consectetur totam dignissimos obcaecati!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-apple"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore officia tenetur hic est, quaerat
+                        ipsam eum consectetur totam dignissimos obcaecati!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+        <div class="custom-shape-divider-bottom-1702310412">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </div>
+    <!---------------MyWork---------------->
+    <div id="mywork" style="background: #ffe6c2;position:relative">
+        <div class="container">
+            <h1 class="subtitle">
+                My Work
+            </h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="img/img-1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media</h3>
+                        <p>This site will take you to the appropriate website related to the above image and context.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/img-2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Shopping</h3>
+                        <p>This site will take you to the appropriate website related to the above image and context.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/img-3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Music</h3>
+                        <p>This site will take you to the appropriate website related to the above image and context.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See more</a>
+        </div>
+        <div class="custom-shape-divider-bottom-1702309644">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </div>
+    <!-- ----------------Contact------------------- -->
+    <div id="contact" style="background: #e4fdd0;">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">
+                        Contact
+                    </h1>
+                    <p><i class="fa-solid fa-envelope"></i>  contact@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i>  0123456789</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                    
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet"><!-- changes made -->
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2"> Submit</button>
+                    </form>
+                    <!-- --------------- -->
+                    <span id="msg"></span>
+                    <!-- ---------------------- -->
+                </div>
+            </div>
+        </div>
+        <div class="copright">
+            <p> Copyright &copy; Haris Portfolio.</p>
+        </div>
+    </div>
+    <script>
+        function showmenu(){
+            document.getElementById("navlinks").style.display="block";
+        }
+        function hidemenu(){
+            document.getElementById("navlinks").style.display="none";
+        }
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw0kPWrZS7hP0VDeHxNb2qtDfiwumX-Sq_cMzsbsLQYcR8ZmrM4dHB_dMqIQ-92Eeam/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg") /* changes made*/
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML="Succesfully submitted ;)"/* changes made*/
+                setTimeout(function(){/* changes made*/
+                    msg.innerHTML=" "/* changes made*/
+                },4000)/* changes made*/
+                form.reset()/* changes made*/
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
